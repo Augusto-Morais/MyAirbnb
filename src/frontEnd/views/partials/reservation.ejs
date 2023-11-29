@@ -1,0 +1,57 @@
+
+    <% for (const reservation of data.keys()) { %>
+<div class="reservation">
+  <h3>
+    <span id="Title"><%= data.get(reservation).Title %></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+      id="Location"
+      ><%= data.get(reservation).Location %></span
+    >
+  </h3>
+  <!-- https://a0.muscache.com/im/pictures/miso/Hosting-762143343639225867/original/a00b2a11-a216-451a-bd70-5a757714e10b.jpeg?im_w=720 -->
+  <span class="reservation-box">
+    
+        <img
+      class="gallery-item"
+      src="<%= data.get(reservation).Images[0] %>"
+      alt="Rental image goes here"
+    />
+    <img
+      class="gallery-item"
+      src="<%= data.get(reservation).Images[1] %>"
+      alt="Rental image goes here"
+    />
+    <img
+      class="gallery-item"
+      src="<%= data.get(reservation).Images[2] %>"
+      alt="Rental image goes here"
+    />
+    <img
+      class="gallery-item"
+      src="<%= data.get(reservation).Images[3] %>"
+      alt="Rental image goes here"
+    />
+    <img
+      class="gallery-item"
+      src="<%= data.get(reservation).Images[4] %>"
+      alt="Rental image goes here"
+    />
+        
+    
+  </span>
+  <p><span id="OriginalLink"><a href="<%= data.get(reservation).OriginalLink %>" id="AirbnbLink" target="_blank">Airbnb Link</a></span></p>
+  
+  
+  <div id="info">
+    <p>Night: R$<span id="PricePerNight"><%= data.get(reservation).PricePerNight %></span></p>
+    <p>Check In: <span id="CheckIn"><%= reservation.CheckIn.toISOString().split("T")[0].split("-")[2] %>/<%= reservation.CheckIn.toISOString().split("T")[0].split("-")[1] %>/<%= reservation.CheckIn.toISOString().split("T")[0].split("-")[0] %></span></p>
+    <p>Check Out: <span id="CheckOut"><%= reservation.CheckOut.toISOString().split("T")[0].split("-")[2] %>/<%= reservation.CheckOut.toISOString().split("T")[0].split("-")[1] %>/<%= reservation.CheckOut.toISOString().split("T")[0].split("-")[0] %></span></p>
+    <p>Guests: <span id="nGuests"><%= reservation.Guests %></span></p>
+    <p>CleaningCharge: R$<span id="CleaningCharge"><%= reservation.CleaningCharge %></span></p>
+    <p>MyAirbnbServiceCharge: R$<span id="MyAirbnbServiceCharge"><%= reservation.MyAirbnbServiceCharge %></span></p>
+    <hr>
+    <p>Total value: R$<span id="TotalValue"><%= reservation.TotalValue %></span></p>
+  </div>
+  
+  <img src="/images/close.svg" alt="Delete Icon" id="DeleteImg" title="Delete Reservation">
+</div>
+<% } %>

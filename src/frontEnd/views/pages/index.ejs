@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("../partials/headIndex.ejs"); %>
+</head>
+
+<body>
+    <div id="content">
+
+    <%- include("../partials/header.ejs"); %>
+        
+
+        <ul id="categories">
+            <div class="category" id="Beach">
+                <img src="/images/beach.svg" alt="Image Goes here">
+                <li>Beach</li>
+            </div>
+
+            <div class="category" id="Cottage">
+                <img src="/images/cottage.svg" alt="Image Goes here">
+                <li>Cottage</li>
+            </div>
+
+            <div class="category" id="Castles">
+                <img src="/images/castle.svg" alt="Image Goes here">
+                <li>Castles</li>
+            </div>
+
+            <div class="category" id="Lake">
+                <img src="/images/lake.svg" alt="Image Goes here">
+                <li>Lake</li>
+            </div>
+
+            <div class="category" id="TreeHouses">
+                <img src="/images/treeHouse.svg" alt="Image Goes here">
+                <li>Tree Houses</li>
+            </div>
+
+            <div id="results">
+                <%- include("../partials/rental.ejs"); %>
+            </div>
+
+
+
+
+        </ul>
+    </div>
+    
+    <%- include("account.ejs"); %>
+
+
+
+
+
+</body>
+
+</html>

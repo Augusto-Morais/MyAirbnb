@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("../partials/headReservations.ejs"); %>
+  </head>
+  <body>
+    <%- include("../partials/header.ejs"); %>
+
+    <div id="main">
+      <% if(isReservationPost){ %>
+        <p id="ReservationStatus">Your Reservation Has Been Confirmed!</p>
+      <% } %>
+
+      <h2>Your Reservations</h2>
+
+      <div id="reservations">
+        <%- include("../partials/reservation.ejs"); %>
+      </div>
+    </div>
+  </body>
+</html>

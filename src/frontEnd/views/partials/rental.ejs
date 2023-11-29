@@ -1,0 +1,11 @@
+<% data.forEach(element=> { %>
+    <div class="result">
+        <img src="<%= element.Images[0] %>"
+            alt="Rental Image goes here">
+        <p><%= element.Title %></p>
+        <p><%= element.Location %></p>
+        <p>R$<span><%= element.PricePerNight %></span> noite</p>
+    </div>
+
+
+    <% }) %>

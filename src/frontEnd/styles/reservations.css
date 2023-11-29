@@ -1,0 +1,256 @@
+/* #head{
+    display: flex;
+    align-items: center;
+} */
+h1 {
+  color: rgb(216, 35, 44);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  /* float: right; */
+  /* border: 0.1em solid; */
+}
+
+#logo {
+  width: 3em;
+  height: 2em;
+  /* display: inline-block; */
+}
+
+#head {
+  margin: 0.5em 3em;
+  margin-bottom: 0.1em;
+  width: auto;
+  height: 6em;
+  padding-bottom: 0.3em;
+  border-bottom: 0.1em solid rgb(112, 108, 108);
+  /* position: relative; */
+  /* position: fixed;
+  top: 0; */
+  /* z-index: 1; */
+}
+
+#head img,
+#head h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#user img:hover {
+  /* transform: scale(1.2); */
+  cursor: pointer;
+}
+
+#user {
+  position: relative;
+  left: 93em;
+  bottom: 5em;
+}
+
+#user img {
+  width: 2.7em;
+  height: 4em;
+  margin: 0.5em 3em;
+}
+
+#main {
+  margin: auto;
+  width: 60em;
+  /* background-color: rgba(170, 167, 168,0.5); */
+  padding: 1em;
+  /* border: 0.1em solid; */
+}
+
+#ReservationStatus{
+  width: 18.1em;
+  padding: 0.5em;
+  margin: auto auto;
+  border: 0.1em solid rgba(102, 88, 92, 0.1);
+  border-radius: 0.5em;
+  background-color: rgba(87, 196, 55, 0.5);
+  font-family: 'Open Sans', sans-serif;
+}
+
+#DeleteImg{
+  width: 5em;
+  height: 2em;
+  position: relative;
+  bottom: 41em;
+  left: 55.8em;
+}
+
+#DeleteImg:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+h2 {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#reservations {
+  /* height: ; */
+  width: 100%;
+  /* height: 50em; */
+  /* border: 0.1em solid rgb(216, 35, 44); */
+}
+
+.reservation {
+  width: 100%;
+  height: 21.9em;
+  border: 0.1em solid rgba(102, 88, 92, 0.5);
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+
+  /* padding-top: 0.1em; */
+  padding-left: 0.9em;
+  padding-bottom: 0.9em;
+  
+  /* gap: 0.1em; */
+}
+
+/* .reservation p{
+  display: inline;
+} */
+
+.reservation-box {
+  /* background-color: red; */
+  /* bor */
+  width: 35%;
+  display: grid;
+  gap: 0.3em;
+}
+
+.reservation-box img{
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: -o-crisp-edges; /* Opera */
+  image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor; 
+  width: 12em;
+  height: 7.5em;
+}
+
+.gallery-item:nth-child(1) {
+  /* background-color: red; */
+  
+  /* image-rendering: pixelated; */
+  /* IE (non-standard property) */
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  height: 15.4em;
+  width: 13em;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+.gallery-item:nth-child(2) {
+  /* background-color: red; */
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.gallery-item:nth-child(3) {
+  /* background-color: red; */
+  grid-column: 4;
+  grid-row: 1;
+  border-top-right-radius: 0.5em;
+}
+
+.gallery-item:nth-child(4) {
+  /* background-color: red; */
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.gallery-item:nth-child(5) {
+  grid-column: 4;
+  grid-row: 2;
+  border-bottom-right-radius: 0.5em;
+
+}
+
+/* #outter-box{
+  position: unset;
+} */
+
+#info{
+  height: 15.9em;
+  width: 17em;
+  /* border: 0.1em solid; */
+  position: relative;
+  left: 31.9em;
+  bottom: 15.9em;
+  font-size: 1.2em;
+  margin-top: 0.8em;
+  padding-left: 0.5em;
+  /* margin-left: 0; */
+  /* border: 0.1em solid rgba(102, 88, 92, 0.5); */
+  /* background-color: rgba(76, 98, 139, 0.2); */
+  border-radius: 0.5em;
+  /* float: right; */
+
+}
+
+hr{
+  margin: 0 0.3em;
+}
+
+#Title{
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+#Location{
+  font-family: "Raleway", sans-serif;
+  /* font-weight: 700; */
+}
+
+
+#info p{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
+}
+
+#info p:last-child{
+  font-family: 'Inter', sans-serif;
+  /* content: "a"; */
+  font-weight: 900;
+}
+
+/* #TotalValue-box p{
+  font-family: 'Inter', sans-serif;
+} */
+
+#OriginalLink{
+  font-family: 'Open Sans', sans-serif;
+  border: 0.1em solid rgba(219, 58, 53, 0.5);
+  background-color: rgba(190, 94, 90, 0.5);
+  border-radius: 0.5em;
+}
+ 
+#AirbnbLink{
+  margin: 0.3em;
+}
+
+#AirbnbLink:visited{
+  text-decoration: underline;
+
+  color: black;
+
+}
+
+#AirbnbLink:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+#AirbnbLink:link{
+  text-decoration: underline;
+  color: black;
+}
+
+#AirbnbLink:active{
+  text-decoration: underline;
+  color: black;
+  /* transform: scale(0.8); */
+}

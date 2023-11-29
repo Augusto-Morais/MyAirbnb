@@ -1,0 +1,185 @@
+/* #head{
+    display: flex;
+    align-items: center;
+} */
+h1 {
+  color: rgb(216, 35, 44);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  /* float: right; */
+  /* border: 0.1em solid; */
+}
+
+#logo {
+  width: 3em;
+  height: 2em;
+  /* display: inline-block; */
+}
+
+#head {
+  margin: 0.5em 3em;
+  margin-bottom: 0.1em;
+  width: auto;
+  height: 6em;
+  padding-bottom: 0.3em;
+  border-bottom: 0.1em solid rgb(112, 108, 108);
+  /* position: relative; */
+  /* position: fixed;
+  top: 0; */
+  /* z-index: 1; */
+}
+
+#head img,
+#head h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#user img:hover {
+  /* transform: scale(1.2); */
+  cursor: pointer;
+}
+
+#user {
+  position: relative;
+  left: 93em;
+  bottom: 5em;
+}
+
+#user img {
+  width: 2.7em;
+  height: 4em;
+  margin: 0.5em 3em;
+}
+
+/* #userOptions{
+  border: 0.1em solid rgba(92, 92, 92, 0.5);
+  display: inline-block;
+  width: 10em;
+  height: 3.6em;
+  position: relative;
+  left: 88.5em;
+  bottom: 6em;
+  border-radius: 0.5em;
+  background-color: rgb(238, 238, 238);
+  visibility: hidden;
+}
+
+#UserName{
+  text-align: center;
+  margin-bottom: 0.5em;
+  padding-top: 0.1em;
+  background-color: rgb(219, 219, 219);
+  padding-bottom: 0.2em;
+  font-family: "Rajdhani", sans-serif;
+
+  
+}
+
+#Reservations{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+} */
+
+/* #divider {
+  border-top: 0.05em solid rgb(204, 199, 199);
+  position: relative;
+  bottom: 4.7em;
+   */
+  /* z-index: -1; */
+/* } */
+
+#categories {
+  list-style: none;
+  text-align: center;
+  margin-top: 1.2em;
+}
+
+#categories .category {
+  display: inline-block;
+  margin-right: 1.2em;
+  cursor: pointer;
+  padding-bottom: 0.6em;
+  border-bottom: 0.2em solid white;
+  /* text-align: center; */
+}
+
+#categories .category:hover {
+  /* border-bottom: 0.2em solid rgba(204, 54, 54); */
+  border-bottom: 0.2em solid rgba(92, 92, 92, 0.5);
+
+  /* text-align: center; */
+}
+
+.category img {
+  width: 2em;
+  height: 2em;
+}
+
+#categories .category li {
+  color: rgb(112, 108, 108);
+  font-family: "Rajdhani", sans-serif;
+}
+
+#results {
+  margin-top: 1.2em;
+  margin-left: 1em;
+  margin-right: 3.2em;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 0.4em;
+  row-gap: 0.5em;
+  /* margi; */
+}
+
+.result:hover{
+  cursor: pointer;
+}
+
+.result p:nth-child(2) {
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "Noto Sans Display", sans-serif;
+  font-weight: bolder;
+  /* border: 0.1em solid rgb(112, 108, 108); */
+  /* border-radius: 1em; */
+  /* margin: 1em 1.2em; */
+}
+
+/* .result p:nth-child(2)::after{
+    content: "Something";
+} */
+
+.result p:nth-child(3) {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: rgb(75, 73, 73);
+}
+
+.result p:nth-child(4) {
+  font-family: "Inter", sans-serif;
+}
+
+.result img {
+  margin-top: 1em;
+  width: 18em;
+  height: 16.7em;
+  border-radius: 1em;
+}
+
+.result p {
+  text-align: left;
+  margin-left: 1em;
+  max-width: 26ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 
+#categories li img{
+    display: block;
+} */
+
+#register {
+  display: none;
+}

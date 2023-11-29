@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("../partials/headRoom.ejs"); %>
+</head>
+
+<body>
+    <%- include("../partials/header.ejs"); %>
+    
+    <div id="main">
+        <h2 id="Title"><%= data.Title %></h2>
+        <h3><%= data.Location%></h3>
+
+        <div class="gallery">
+            <img class="grid-item" id="img1"
+                src="<%= data.Images[0]%>"
+                alt="Rental Image Goes Here">
+            <img class="grid-item" id="img2"
+                src="<%= data.Images[1]%>"
+                alt="Rental Image Goes Here">
+            <img class="grid-item" id="img3"
+                src="<%= data.Images[2]%>"
+                alt="Rental Image Goes Here">
+            <img class="grid-item" id="img4"
+                src="<%= data.Images[3]%>"
+                alt="Rental Image Goes Here">
+            <img class="grid-item" id="img5"
+                src="<%= data.Images[4]%>"
+                alt="Rental Image Goes Here">
+        </div>
+
+        <div id="reservation-panel">
+            <div id="reservation-panel-item1">
+                <p>This site is for testing purposes only, so the prices and reservations displayed are not actual. If you are really interested in the room above, here is the <a id="OriginalLink"
+                        href="<%= data.OriginalLink %>">
+                        link
+                    </a></p>
+
+            </div>
+            <div id="reservation-panel-item2">
+                <form method="POST" action="/reservations">
+
+                <p><span id="PricePerNight">R$<%= data.PricePerNight %></span> night</p>
+                <p>Check In<div><input min="2023-09-01" max="2024-09-01" type="date" name="CheckIn" id="CheckIn" required></div>
+                </p>
+                <p>Check Out
+                <div><input min="2023-09-01" max="2024-09-01" type="date" name="CheckOut" id="CheckOut" required></div>
+                </p>
+                <p>Guests
+                <div><input type="number" name="Guests" id="Guests" min="1" max="8" required></div>
+                </p>
+                <div id="ReserveButton-box"><button type="submit" id="ReserveButton">Reserve</button></div>
+                <p>Nights x <span id="nNights"></span>: R$<span id="NightsPrice"></span></p>
+                <p id="CleaningCharge-p">Cleaning Charge: R$<span id="CleaningCharge"></span></p>
+                <p id="MyAirbnbServiceCharge-p">MyAirbnb Service Charge: R$<span id="MyAirbnbServiceCharge"></span>
+                </p>
+                <hr>
+                <p id="TotalValue-p">Total: R$<span id="TotalValue"></span></p>
+                <!-- <input type="hidden" name="PricePerNight" value="<%= data.PricePerNight%>"> -->
+                <input type="hidden" name="CleaningCharge" value="">
+                <input type="hidden" name="MyAirbnbServiceCharge" value="">
+                <input type="hidden" name="TotalValue" value="">
+                <input type="hidden" name="Title" value="">
+                </form>
+                
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

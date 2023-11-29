@@ -1,0 +1,96 @@
+#register {
+  /* display: none; */
+  /* visibility: hidden; */
+  /* top: ; */
+  /* position: fixed; */
+  width: 20em;
+  height: 30.6em;
+  border: 0.1em solid;
+  background-color: white;
+  border-radius: 1em;
+  margin: 5em auto;
+}
+
+#register #closeBox{
+  display: block;
+  text-align: right;
+  /* margin-bottom: 0; */
+}
+
+#register #closeBox img{
+  width: 1.5em;
+  height: 2.5em;
+  margin-top: 0.4em;
+  margin-right: 0.8em;
+}
+
+#register #closeBox img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#register h2 {
+  /* position: relative; */
+  /* margin: auto; */
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  font-family: "Karla", sans-serif;
+}
+
+/* hr::content{content: "or";} */
+/* #divider1{
+    width: ;
+} */
+
+#divider {
+  display: flex;
+  flex-direction: row;
+  /* text-align: center; */
+  font-weight: 100;
+  font-family: "Karla", sans-serif;
+}
+
+#divider:before,
+#divider:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 0.1em solid rgba(75, 69, 69,0.4);
+  margin: auto 0.6em;
+}
+
+#register input {
+  margin-top: 0.7em;
+  /* text-align: center; */
+  display: block;
+  height: 1.5em;
+  margin: 0.7em auto;
+  border: 0.1em solid rgb(185, 178, 178);
+  border-radius: 0.3em;
+}
+
+#register button {
+  width: 6em;
+  border: 0.1em solid rgb(255, 255, 255);
+  background-color: #d70466;
+  color: white;
+  padding: 0.49em;
+  border-radius: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.9em;
+  /* text-align: center; */
+  /* align-items: center; */
+  /* font-family: "Karla", sans-serif; */
+}
+
+#register #SignUpDiv,
+#LogInDiv {
+  text-align: center;
+  /* cursor: pointer; */
+}
+
+#register label,
+button {
+  display: inline-block;
+}
+
