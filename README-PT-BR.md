@@ -19,6 +19,7 @@ Na página de reservas do usuário, é possível ter acesso à todas as reservas
 
 ### Tecnologias Utilizadas
 * [NodeJS](https://nodejs.org/en)
+  </br></br>
   Dependências:
     - express
     - mongodb
@@ -29,6 +30,7 @@ Na página de reservas do usuário, é possível ter acesso à todas as reservas
     - ejs
     - jsdom
     - body-parser
+  </br></br>
 * [Express](https://expressjs.com/pt-br/)
 * [MongoDB](https://www.mongodb.com/pt-br)
 
