@@ -1,5 +1,19 @@
 # Título/Nome do projeto
 
+Tela inicial
+![image](https://github.com/S41K10/MyAirbnb/assets/89564462/9e3243e4-e827-4e5f-a6c7-b9b096dc5e93)
+
+Página de reserva
+![image](https://github.com/S41K10/MyAirbnb/assets/89564462/265167d4-b8a6-45e8-98cf-e0dd02b34c62)
+
+Fazendo reserva
+![image](https://github.com/S41K10/MyAirbnb/assets/89564462/f20faaf9-ed8b-4211-91ad-acc8c208a128)
+
+Página de reservas confirmadas do usuário
+![image](https://github.com/S41K10/MyAirbnb/assets/89564462/73ecf99c-3ef2-44c8-8734-42be6506b032)
+
+
+
 Descreva brevemente o seu projeto. Aqui você pode utilizar texto e também imagens/diagramas.
 
 * O [Mermaid](https://mermaid.live/edit#pako:eNpVkE1uwjAQha9izapIZFGWWVSCBFZUVCq7mMXInjSW_Fdji6Ikp2HRg3CxmmRDZzV633uj0etBOElQQqvdRXQYIjvW3LI862bttRJ4_73fHHs9saJ4GwJ9JzrHgW1enulqMWc2DxOr-u0PGa_dOKvVFD1YGljd7NFH50_P5HhxA9s26qNzlv6TLlBO7ZoWyxYLgYFVGCYLLMFQMKhk_r5_KBxiR4Y4lHmV1GLSkQO3Y7Ziiu7zagWUMSRaQvISI9UKvwIayLf1OaskVXThfW5kKmb8AyAeX3o) é uma opção bem legal para diagramas e você consegue utilizar diretamente no README.md:
