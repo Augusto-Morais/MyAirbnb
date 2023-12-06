@@ -1,36 +1,33 @@
-# Título/Nome do projeto
+# My Airbnb  web page
+Essa aplicação consiste em uma página web que exibe várias acomodações separadas por categorias, além de permitir que o usuário simule reservas.
 
-Tela inicial
+Na página inicial, o usuário terá acesso à casas de praia, chalés, castelos, casas de lago e de árvore:
 ![image](https://github.com/S41K10/MyAirbnb/assets/89564462/9e3243e4-e827-4e5f-a6c7-b9b096dc5e93)
 
-Página de reserva
+Ao selecionar uma acomodação, são exibidas mais fotos, além de um formulário para realizar a reserva
 ![image](https://github.com/S41K10/MyAirbnb/assets/89564462/265167d4-b8a6-45e8-98cf-e0dd02b34c62)
 
-Fazendo reserva
+No formulário de reserva, o usuário preenche os campos de check in, check out e o número de hóspedes, informações estas que atualizam o valor da estadia.
 ![image](https://github.com/S41K10/MyAirbnb/assets/89564462/f20faaf9-ed8b-4211-91ad-acc8c208a128)
 
-Página de reservas confirmadas do usuário
+Na página de reservas do usuário, é possível ter acesso à todas as reservas efetuadas, além de removê-las.
 ![image](https://github.com/S41K10/MyAirbnb/assets/89564462/73ecf99c-3ef2-44c8-8734-42be6506b032)
 
-
-
-Descreva brevemente o seu projeto. Aqui você pode utilizar texto e também imagens/diagramas.
-
-* O [Mermaid](https://mermaid.live/edit#pako:eNpVkE1uwjAQha9izapIZFGWWVSCBFZUVCq7mMXInjSW_Fdji6Ikp2HRg3CxmmRDZzV633uj0etBOElQQqvdRXQYIjvW3LI862bttRJ4_73fHHs9saJ4GwJ9JzrHgW1enulqMWc2DxOr-u0PGa_dOKvVFD1YGljd7NFH50_P5HhxA9s26qNzlv6TLlBO7ZoWyxYLgYFVGCYLLMFQMKhk_r5_KBxiR4Y4lHmV1GLSkQO3Y7Ziiu7zagWUMSRaQvISI9UKvwIayLf1OaskVXThfW5kKmb8AyAeX3o) é uma opção bem legal para diagramas e você consegue utilizar diretamente no README.md:
-
-[![](https://mermaid.ink/img/pako:eNpVkE1uwjAQha9izapIZFGWWVSCBFZUVCq7mMXInjSW_Fdji6Ikp2HRg3CxmmRDZzV633uj0etBOElQQqvdRXQYIjvW3LI862bttRJ4_73fHHs9saJ4GwJ9JzrHgW1enulqMWc2DxOr-u0PGa_dOKvVFD1YGljd7NFH50_P5HhxA9s26qNzlv6TLlBO7ZoWyxYLgYFVGCYLLMFQMKhk_r5_KBxiR4Y4lHmV1GLSkQO3Y7Ziiu7zagWUMSRaQvISI9UKvwIayLf1OaskVXThfW5kKmb8AyAeX3o?type=png)](https://mermaid.live/edit#pako:eNpVkE1uwjAQha9izapIZFGWWVSCBFZUVCq7mMXInjSW_Fdji6Ikp2HRg3CxmmRDZzV633uj0etBOElQQqvdRXQYIjvW3LI862bttRJ4_73fHHs9saJ4GwJ9JzrHgW1enulqMWc2DxOr-u0PGa_dOKvVFD1YGljd7NFH50_P5HhxA9s26qNzlv6TLlBO7ZoWyxYLgYFVGCYLLMFQMKhk_r5_KBxiR4Y4lHmV1GLSkQO3Y7Ziiu7zagWUMSRaQvISI9UKvwIayLf1OaskVXThfW5kKmb8AyAeX3o)
-
-- No site, vá no campo: Actions > Copy Markdown. Copie o link e cole no seu arquivo README.md e o diagrama estará lá.
-
-
 ### Tecnologias Utilizadas
+* [NodeJS](https://nodejs.org/en)
+  Dependências:
+    - express
+    - mongodb
+    - mongoose
+    - puppeter (web scrapping)
+    - nodemon
+    - dotenv
+    - ejs
+    - jsdom
+    - body-parser
+* [Express](https://expressjs.com/pt-br/)
+* [MongoDB](https://www.mongodb.com/pt-br)
 
-Liste as tecnologias (linguagens, ferramentas, bibliotecas) que você utilizou para elaborar o projeto. Essa parte é importante para quando um recrutador (que não tem conhecimento de programação) acessar o seu projeto, ele vai saber só olhando a documentação quais tecnologias você já conhece!
-
-Exemplo:
-* [Golang](https://github.com/golang/go)
-* [Docker](https://www.docker.com/)
-* [MySQL](https://www.mysql.com/)
 
 ## Dependências e Versões Necessárias
 
@@ -40,9 +37,7 @@ Liste as dependências necessárias para rodar o projeto e as versões que você
 
 ## ✅ Como rodar o projeto
 
-Descreva o passo a passo necessário para rodar sua aplicação. Lembre-se: a pessoa nunca rodou seu projeto. Não tenha medo de detalhar o máximo possível. Isso é necessário!
 
-Uma boa forma de descrever o passo a passo é:
 
 ```
 Comando 1
@@ -88,5 +83,3 @@ Descrição do problema
 ## ⏭️ Próximos passos
 
 Descreva se você pretende, pensou ou gostaria de elaborar uma nova feature para o seu projeto definindo os próximos passos.
-
-
