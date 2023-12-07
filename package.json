@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "nodemon test.js",
     "fillDB": "nodemon fillDB.js"
   },
   "keywords": [],
