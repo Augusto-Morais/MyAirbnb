@@ -1,4 +1,4 @@
-#Documentação incompleta
+# Documentação incompleta
 # My Airbnb  web page
 Essa aplicação consiste em uma página web que exibe várias acomodações separadas por categorias, além de permitir que o usuário simule reservas.
 
